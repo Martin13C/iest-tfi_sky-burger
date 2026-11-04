@@ -10,7 +10,7 @@
 5. `docs/PROMPTS.md` y `docs/DECISIONES.md` cuando una decisión anterior afecte la tarea.
 
 ## Tecnologías
-React 19, Vite 8, React Router 7, Tailwind 4, Supabase JS 2 (PostgreSQL, Auth, Storage y RPC/Edge Functions externas), TanStack Query 5, React Hook Form 7, Zod 4, React Icons, Framer Motion, Toastify, SweetAlert2 y lightbox.
+React 19, Vite 8, React Router 7, Tailwind 4, Supabase JS 2 (PostgreSQL, Auth, Storage y RPC/Edge Functions externas), TanStack Query 5, React Hook Form 7, Zod 4, React Icons, Framer Motion, Toastify, SweetAlert2, Lightbox y Vitest 5.
 
 ## Contexto comprobado del repositorio
 Sky Burger: web responsive de hamburguesas artesanales.
@@ -33,7 +33,7 @@ Sky Burger: web responsive de hamburguesas artesanales.
 - **Comandos clave**:
   - **Desarrollo**: `npm run dev` para iniciar el servidor de desarrollo.
   - **Compilación**: `npm run build` para generar el output para producción.
-  - **Pruebas**: No implementadas aún; consultar `docs/08-TAREAS.md` para detalles.
+  - **Pruebas**: `npm run test` para ejecutar pruebas con Vitest.
 
 - **Investigación de archivos no usados**:
   - Para verificar si un archivo no está siendo usado, busca en `src/` patrones como:

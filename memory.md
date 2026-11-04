@@ -21,9 +21,17 @@
 
 ## Pendientes de verificación humana
 - Confirmar persistencia y publicación de Facebook en RPC/BD (el formulario React no es suficiente).
-- Validar integración real de Instagram, UX de auth sin pérdida de formularios, ejecución de tests (el package.json del ZIP carece de script `test`).
+- Validar integración real de Instagram, UX de auth sin pérdida de formularios.
 - Revisar permisos/RLS con cuenta real y pruebas negativas; preservar secrecía de claves.
 - Lighthouse, pruebas E2E, despliegue, licencias multimedia y prompts originales aún sin evidencia.
+
+## Registro de Pruebas Automatizadas (Vitest)
+- **Fecha**: 04/11/2026
+- **Archivos creados en `tests/`**:
+  - `tests/catalogoSchema.test.js` (RF: Gestión del catálogo / Validación de esquemas Zod).
+  - `tests/CarritoContext.test.jsx` (RF: Carrito de compras y cálculo de totales).
+  - `tests/formato.test.js` (RF: Formateo de precios y moneda local ARS).
+- **Resultado de Ejecución (`npm run test`)**: 3 test files pasados con éxito, 5 tests totales aprobados.
 
 ## Regla de actualización
 Actualizar al cerrar una tarea **solo con hechos contrastados**: fecha, decisión, archivo, resultado y enlace a commit si existe. No almacenar credenciales, datos personales ni supuestos como resultados.
